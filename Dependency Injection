@@ -1,0 +1,8 @@
+//////////////////Services
+Services are classes responsible for implementing the core business logic of your application.
+
+Key Purpose: 
+1)Encapsulation of Business Logic .
+2) Reusability
+3)Testability.
+4)Dependency Injection (DI).
