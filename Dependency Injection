@@ -45,3 +45,32 @@ Loose Coupling:
 Flexibility: 
 
 Testability: 
+
+////////////////////////////Service Lifetimes
+
+Three Main Lifetime Options
+
+1. Transient:
+
+Creation: A new instance is created each time the service is requested (injected).
+
+Lifetime: The instance lives only as long as it's needed to fulfill the current request.
+
+Example: Database context, logger, helper classes.
+
+
+Scoped:
+
+Creation: A single instance is created per HTTP request (or scope) within your application.
+
+Lifetime: The instance is shared throughout the request and disposed of when the request ends.
+
+• Example: User-specific data, transaction handling, shopping carts.
+
+Singleton:
+
+Creation: A single instance is created for the entire lifetime of your application.
+
+Lifetime: The instance is shared across all requests and components.
+
+Example: Application-wide configuration settings, shared caches, singleton design pattern implementations.
