@@ -32,3 +32,16 @@ In simpler terms
 Instead of tightly coupling your classes by having them depend on concrete implementations, they should depend on abstractions (interfaces or abstract classes).
 
 This allows you to easily swap out implementations without changing the higher-level code.
+
+
+/////////////////////////
+Dependency Injection (DI):
+The most common way to do this in ASP.NET Core is through constructor injection, but there are also other techniques like property injection and method injection.
+
+Benefits of DIP, IoC, and DI
+
+Loose Coupling:
+
+Flexibility: 
+
+Testability: 
