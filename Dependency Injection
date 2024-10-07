@@ -26,3 +26,9 @@ Interface-Based Programming: Define interfaces for your services to create abstr
 Clear Naming: Use descriptive names for your services and their methods to make your code self-documenting.
 
 Testing: Write unit tests for your services to ensure that your business logic works correctly in isolation.
+
+DIP(Dependency Inversion Principal)
+In simpler terms 
+Instead of tightly coupling your classes by having them depend on concrete implementations, they should depend on abstractions (interfaces or abstract classes).
+
+This allows you to easily swap out implementations without changing the higher-level code.
