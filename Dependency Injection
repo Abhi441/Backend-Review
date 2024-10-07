@@ -14,3 +14,15 @@ Integration :
 Notifications :
 Loggins : 
 
+Best Practices
+
+• Single Responsibility Principle (SRP): Design your services to have a single responsibility to keep them focused and maintainable.
+
+Dependency Injection: Use dependency injection to
+manage service lifetimes and dependencies, making your code loosely coupled and easier to test.
+
+Interface-Based Programming: Define interfaces for your services to create abstraction layers and facilitate testing with mocks.
+
+Clear Naming: Use descriptive names for your services and their methods to make your code self-documenting.
+
+Testing: Write unit tests for your services to ensure that your business logic works correctly in isolation.
