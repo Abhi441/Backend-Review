@@ -6,3 +6,11 @@ Key Purpose:
 2) Reusability
 3)Testability.
 4)Dependency Injection (DI).
+
+Typical Responsibility of Services:
+Data Access:
+Business Rules :
+Integration :
+Notifications :
+Loggins : 
+
